@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(-75deg,
+    #2158E6 0, #2158E6 55%,
+    #002233 0, #002233 100%);
+}
+
+.info {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+.infoContent {
+    width: 80%;
+    margin: auto;
+}
+#logo {
+    width: 100%;
+}
+.infoContent p {
+    width: 80%;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+}
+
+.users {
+    display: flex;
+    width: 60%;
+    height: 100vh;
+}
+.usersContent {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    background-color: white;
+}
+#userIcon {
+    margin: 0% auto 0 auto;
+    width: 100%;
+}
+.form-users {
+    margin: 5% 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-campo {
+    display: flex;
+    background-color: #2159e5c0;
+    width: 80%;
+    margin: 0 auto 10% auto;
+    height: 10vh;
+    padding: 3% 0 3% 0;
+}
+.form-campo img {
+    margin: 0 5% 0 5%;
+    width: 12%;
+}
+.form-campo input {
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    margin: 0 3% 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+.form-campo input:focus {
+    outline: none;
+}
+.button-form {
+    margin: 0 auto 0 auto;
+    padding: 2% 0 2% 0;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    background-color: #002233;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+#signUpTxt {
+    margin: auto;
+    padding-top: 2%;
+    font-size: 12px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#signUpTxt span {
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#form-login {
+    display: flex;
+}
+#form-registro {
+    display: none;
+    flex-direction: column;
+}
+
+
+
+
+.info2 {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    height: 30vh;
+    top: 5vh;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 10;
+}
+.info2 p {
+    margin: auto;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.info2 button {
+    margin: auto;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
